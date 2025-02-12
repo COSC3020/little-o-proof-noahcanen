@@ -1,6 +1,6 @@
 # Little-o
 
-In addition to the big-O, big-$\Omega$, and big-$\Theta$ notation that
+In addition to the big-O, big-$'\Omega'$, and big-$'\Theta'$ notation that
 we covered at the beginning of this class, a few other notations are sometimes
 used in asymptotic analysis.  For example, "little-$o$" notation.
 
