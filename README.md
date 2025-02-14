@@ -17,13 +17,14 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-o states that a function grows slower than some order of magnitude
+The definition of o proves that
+$f(n)\in o(g(n))$ implies
+that $f(n)\in O(g(n))$. 
+Because the definition of o proves that g(n) is growing faster than f(n) and the only requirement for g(n) to be the upper bound of f(n) is that it is growing comparable or worse than the worst case of f(n) and to be the o of f(n) it is already doing that so
 
-Meaning that this is saying if g(n) is growing faster than f(n) if and only if f(n) < g(n)
+$f(n)\in o(g(n))$ implies
+that $f(n)\in O(g(n))$.  is true
 
-$f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$  that will always be true
-
-Then, no matter what n or c is, C cannot be less than 0, and g(n) will always grow faster than f(n).
 
 For this assignment, I was able to do it entirely on my own with a little help from https://www.stat.cmu.edu/~cshalizi/uADA/13/lectures/app-b.pdf on o.
 
