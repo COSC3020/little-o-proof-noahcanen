@@ -17,12 +17,15 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-The definition of o proves that
-$f(n)\in o(g(n))$ implies
-that $f(n)\in O(g(n))$. 
-Because the definition of o proves that g(n) is growing faster than f(n) and the only requirement for g(n) to be the upper bound of f(n) is that it is growing comparable or beter than the worst case of f(n) and to be the o of f(n) it is already doing that so
+$f(n)\in O(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) <= c g(n)$
 
-$f(n)\in o(g(n))$ implies
+if $f(n)\in o(g(n))$ implies that $f(n)\in O(g(n))$.
+
+then $\forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$ implies that $\forall c>0, \exists n_0, \forall n\ge n_0: f(n) <= c g(n)$
+
+      $ f(n) < c g(n)$ implies that $f(n) <= c g(n)$ By the law of transitivity
+
+so $f(n)\in o(g(n))$ implies
 that $f(n)\in O(g(n))$.  is true
 
 
