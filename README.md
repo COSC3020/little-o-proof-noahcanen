@@ -25,7 +25,7 @@ then $\forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$ implies that $\
 
 $f(n) < c g(n)$ implies that $f(n) <= c g(n)$ By the law of transitivity
 
-$\forall c>0, \exists n_0, \forall n\ge n_0& implies that $\exists c>0, \exists n_0, \forall n\ge n_0$ 
+$\forall c>0, \exists n_0, \forall n\ge n_0$ implies that $\exists c>0, \exists n_0, \forall n\ge n_0$ 
 
 so $f(n)\in o(g(n))$ implies
 that $f(n)\in O(g(n))$.  is true
